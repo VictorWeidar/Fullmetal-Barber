@@ -396,6 +396,16 @@
         <para>Android 7.1, "Nougat", API level 25.</para>
       </summary>
     </member>
+    <member name="F:UnityEditor.AndroidSdkVersions.AndroidApiLevel26">
+      <summary>
+        <para>Android 8.0, "Oreo", API level 26.</para>
+      </summary>
+    </member>
+    <member name="F:UnityEditor.AndroidSdkVersions.AndroidApiLevel27">
+      <summary>
+        <para>Android 8.1, "Oreo", API level 27.</para>
+      </summary>
+    </member>
     <member name="F:UnityEditor.AndroidSdkVersions.AndroidApiLevelAuto">
       <summary>
         <para>Sets the target API level automatically, according to the latest installed SDK on your computer.</para>
@@ -2763,14 +2773,14 @@ Transitions with exit times greater than one will be evaluated only once, so the
     </member>
     <member name="M:UnityEditor.AssetDatabase.IsForeignAsset(UnityEngine.Object)">
       <summary>
-        <para>Is asset a foreign asset?</para>
+        <para>Determines whether the Asset is a foreign Asset.</para>
       </summary>
       <param name="obj"></param>
       <param name="instanceID"></param>
     </member>
     <member name="M:UnityEditor.AssetDatabase.IsForeignAsset(System.Int32)">
       <summary>
-        <para>Is asset a foreign asset?</para>
+        <para>Determines whether the Asset is a foreign Asset.</para>
       </summary>
       <param name="obj"></param>
       <param name="instanceID"></param>
@@ -2845,14 +2855,14 @@ Transitions with exit times greater than one will be evaluated only once, so the
     </member>
     <member name="M:UnityEditor.AssetDatabase.IsNativeAsset(UnityEngine.Object)">
       <summary>
-        <para>Is asset a native asset?</para>
+        <para>Determines whether the Asset is a native Asset.</para>
       </summary>
       <param name="obj"></param>
       <param name="instanceID"></param>
     </member>
     <member name="M:UnityEditor.AssetDatabase.IsNativeAsset(System.Int32)">
       <summary>
-        <para>Is asset a native asset?</para>
+        <para>Determines whether the Asset is a native Asset.</para>
       </summary>
       <param name="obj"></param>
       <param name="instanceID"></param>
@@ -25991,7 +26001,7 @@ See Also:</para>
     </member>
     <member name="T:UnityEditor.SceneManagement.SceneSetup">
       <summary>
-        <para>The setup information for a scene in the SceneManager.</para>
+        <para>The setup information for a scene in the SceneManager. This cannot be used in Play Mode. </para>
       </summary>
     </member>
     <member name="P:UnityEditor.SceneManagement.SceneSetup.isActive">
